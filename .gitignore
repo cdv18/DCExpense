@@ -1,0 +1,25 @@
+## .NET Core
+**/bin/
+**/obj/
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+.idea/
+*.suo
+*.userprefs
+*.log
+
+## Node.js & Playwright
+**/node_modules/
+tests-e2e/test-results/
+tests-e2e/playwright-report/
+tests-e2e/blob-report/
+tests-e2e/playwright/.cache/
+
+## CodeGraph
+.codegraph/
+
+## OS Files
+.DS_Store
+Thumbs.db
